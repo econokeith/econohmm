@@ -7,7 +7,7 @@ import sys, os.path
 import pandas as pd
 import copy
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from cystats import cystats
+import cystats
 from mixins import HistorizeMixin
 
 from numba import jit, vectorize, float64, guvectorize

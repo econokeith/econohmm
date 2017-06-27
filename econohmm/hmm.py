@@ -12,7 +12,7 @@ from markov_models import Markov
 from emission_models import GaussEmission1d, Gauss1d, NormalEmission1d, NormalInvChi2
 
 
-from cystats import cystats
+import cystats
 # from clustering import gmm_em
 from utils import normalize
 
