@@ -1,4 +1,3 @@
-__author__ = 'keithblackwell1'
 def normalize(vec):
     """
 

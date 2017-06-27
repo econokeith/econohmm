@@ -6,7 +6,7 @@ import numpy as np
 import sys, os.path
 import pandas as pd
 import copy
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+# sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import cystats
 # Todo: this needs to be moved
 # from clustering import gmm_em

@@ -7,8 +7,8 @@ import sys, os.path
 import pandas as pd
 import copy
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-from cystats import cystats
+# sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+import cystats
 # from clustering import gmm_em
 
 
