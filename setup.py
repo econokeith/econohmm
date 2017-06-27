@@ -4,7 +4,6 @@ import numpy as np
 from distutils.extension import Extension
 import os
 
-extensions=[Extension("cystats",["econohmm/cystats.pyx"])]
 
 setup(
     name='econohmm',

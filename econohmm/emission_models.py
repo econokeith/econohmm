@@ -113,6 +113,8 @@ class EmissionModel(ContainerMixin):
         if params is not None:
             K = params.shape[0]
 
+
+
         # make component list
         self.components = [comp(hyperprior=hyperprior, **prior_dict) for _ in xrange(K)]
 
@@ -168,7 +170,7 @@ class EmissionModel(ContainerMixin):
     def add_dist(self, dist):
         assert isinstance(dist, self._comp_type)
         self.components.append(dist)
-        self.K +=1
+        # self.K +=1
 
 
 #Todo give this a reset.
