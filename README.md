@@ -38,6 +38,6 @@ bond yields, and to annual returns of US public pension funds since World War II
 
 #### The Future
 
-I'm currently in the process of finalizing more complicated emissions distributions such as Linear Regression and
+I'm currently in the process of finalizing more complicated emissions distributions such as Linear Regression,
 AR(p) models, and N-dimensional Gaussians as well as expanding the switching models to include time-varying, hierarchical, and stick-breaking type transition matrices.
 
