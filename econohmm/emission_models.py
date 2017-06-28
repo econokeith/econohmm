@@ -9,61 +9,12 @@ import copy
 # sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import cystats
 # Todo: this needs to be moved
-# from clustering import gmm_em
+
 from mixins import ContainerMixin
 from distributions import NormalInvChi2, Gauss1d
 
 
-# class EmissionModel(ContainerMixin):
-#
-#     _hist_fields = ['K']
-#     #todo: set K as a property
-#     def __init__(self, comp, params=None, K=5, prior=None, rand=False, hyperprior=None):
-#
-#         self.components=[]
-#         self.hyperprior = hyperprior
-#
-#         if params is not None and K is not None:
-#             assert K == len(params)
-#             self.K = K
-#         elif K is None:
-#             self.K = len(params)
-#         else:
-#             self.K = K
-#
-#         if prior is None:
-#             prior = comp()
-#
-#         elif isinstance(prior, str):
-#             prior = comp(prior='ref')
-#
-#         elif isinstance(prior, comp):
-#             prior = prior
-#
-#         else:
-#             prior_dict = prior
-#             prior = comp(**prior_dict)
-#
-#         self.prior = prior
-#         self.prior_dict = prior_dict = prior.hyper_param
-#
-#         if params is None:
-#             self.components = [comp(**prior_dict) for _ in xrange(self.K)]
-#
-#         else:
-#             self.components = []
-#             for param in params:
-#                 self.components.append(comp(*param, **prior_dict))
-#
-#         if isinstance(hyperprior, comp):
-#
-#
-#
-#         elif rand is True:
-#             self.components = []
-#             for _ in xrange(self.K):
-#                 self.prior.sample_posterior()
-#                 self.components.append(comp())
+
 
 
 class EmissionModel(ContainerMixin):
@@ -298,5 +249,57 @@ class NormalEmission1d(object):
             c.estimate(data, weights[j])
             self.mu[j] = c.mu
             self.sigma[j] = c.sigma
+
+
+# class EmissionModel(ContainerMixin):
+#
+#     _hist_fields = ['K']
+#     #todo: set K as a property
+#     def __init__(self, comp, params=None, K=5, prior=None, rand=False, hyperprior=None):
+#
+#         self.components=[]
+#         self.hyperprior = hyperprior
+#
+#         if params is not None and K is not None:
+#             assert K == len(params)
+#             self.K = K
+#         elif K is None:
+#             self.K = len(params)
+#         else:
+#             self.K = K
+#
+#         if prior is None:
+#             prior = comp()
+#
+#         elif isinstance(prior, str):
+#             prior = comp(prior='ref')
+#
+#         elif isinstance(prior, comp):
+#             prior = prior
+#
+#         else:
+#             prior_dict = prior
+#             prior = comp(**prior_dict)
+#
+#         self.prior = prior
+#         self.prior_dict = prior_dict = prior.hyper_param
+#
+#         if params is None:
+#             self.components = [comp(**prior_dict) for _ in xrange(self.K)]
+#
+#         else:
+#             self.components = []
+#             for param in params:
+#                 self.components.append(comp(*param, **prior_dict))
+#
+#         if isinstance(hyperprior, comp):
+#
+#
+#
+#         elif rand is True:
+#             self.components = []
+#             for _ in xrange(self.K):
+#                 self.prior.sample_posterior()
+#                 self.components.append(comp())
 
 
