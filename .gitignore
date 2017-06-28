@@ -1,6 +1,6 @@
 .ipynb_checkpoints
 .idea
-build/
+build/**
 
 .idea/
 .so
@@ -11,4 +11,6 @@ econohmm/cystats.so
 econohmm/development/
 /build/
 
-.pyc
+**.pyc
+
+/build/temp.macosx-10.7-x86_64-2.7/econohmm/cystats.o
