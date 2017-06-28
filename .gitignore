@@ -2,15 +2,13 @@
 .idea
 build/
 
-
 .idea/
 .so
-
-
-
 
 econohmm/cystats.c
 econohmm/cystats.so
 
 econohmm/development/
 /build/
+
+.pyc
