@@ -22,7 +22,6 @@ Notebooks demonstrating some of its potential uses.
 
 ##### Estimate Mixture Models and Dirichlet Process Mixtures Models with econohmm.ipynb
 
-
 Shows how to use the container and emission classes of econohmm to estimate a 1D Gaussian mixture model. I use three methodologies:
 1. Gibbs Sampling with specified number of clusters
 2. Expectations Maximization with specified number of clusters
