@@ -34,7 +34,7 @@ Shows how to use the container and emission classes of econohmm to estimate a 1D
 Shows how to set up the basic HMM, switching, and emission objects in order to estimate the states and
 parameters for a given time-series. Demonstrates how to use either the Baum-Welch or Forwards Filter
 Backwards Sample algorithm for estimation. Applies the model to artificial data, to 10 Year US Treasury
-bond yields and to annual returns of US public pension funds since World War II.
+bond yields, and to annual returns of US public pension funds since World War II.
 
 #### The Future
 
