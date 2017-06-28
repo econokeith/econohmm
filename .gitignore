@@ -1,11 +1,14 @@
 .ipynb_checkpoints
 .idea
+build/
+
 
 .idea/
 .so
 
 
-build/
+
+
 econohmm/cystats.c
 econohmm/cystats.so
 
