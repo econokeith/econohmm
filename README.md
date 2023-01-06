@@ -1,4 +1,5 @@
 # econohmm
+ ![](hmm_states.png)
 #### Framework for Bayesian Estimation of HMM's and Mixtures Models
 
 econohmm is the foundation of a generalized package for estimating various types of
