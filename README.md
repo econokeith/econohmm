@@ -23,6 +23,7 @@ Notebooks demonstrating some of its potential uses.
 
 #### Estimate Mixture Models and Dirichlet Process Mixtures Models
  ![](gibbs_sampler.png)
+ 
 link to notebook,[here](https://github.com/econokeith/econohmm/blob/master/Estimate%20Mixture%20Models%20and%20Dirichlet%20Process%20Mixtures%20Models%20with%20econohmm.ipynb)
 
 Shows how to use the container and emission classes of econohmm to estimate a 1D Gaussian mixture model. I use three methodologies:
@@ -33,6 +34,7 @@ Shows how to use the container and emission classes of econohmm to estimate a 1D
 
 #### HMM Presentation
   ![](marginal_hmm_states.png)
+  
 link to notebook, [](https://github.com/econokeith/econohmm/blob/master/HMM%20Presentation.ipynb)
 
 Shows how to set up the basic HMM, switching, and emission objects in order to estimate the states and
