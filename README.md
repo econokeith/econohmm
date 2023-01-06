@@ -1,6 +1,6 @@
 # econohmm
  ![](hmm_states.png)
-#### Framework for Bayesian Estimation of HMM's and Mixtures Models
+### Framework for Bayesian Estimation of HMM's and Mixtures Models
 
 econohmm is the foundation of a generalized package for estimating various types of
 Hidden Markov Models (HMMs). HMMs can be thought of as having two parts:
@@ -16,21 +16,25 @@ The purpose of econohmm is provide a set of tools to work with different emissio
  and switching models interchangably. econohmm has basic mixins and objects for emission models and switching models that are combined
    and used in with standard HMM algorithmic framework.
 
-#### Example Notebooks
+### Example Notebooks
 
 econohmm is still in the early stages of development. However, I've included two iPython
 Notebooks demonstrating some of its potential uses.
 
-##### Estimate Mixture Models and Dirichlet Process Mixtures Models with econohmm.ipynb
+#### Estimate Mixture Models and Dirichlet Process Mixtures Models
  ![](gibbs_sampler.png)
+link to notebook,[here](https://github.com/econokeith/econohmm/blob/master/Estimate%20Mixture%20Models%20and%20Dirichlet%20Process%20Mixtures%20Models%20with%20econohmm.ipynb)
+
 Shows how to use the container and emission classes of econohmm to estimate a 1D Gaussian mixture model. I use three methodologies:
 1. Gibbs Sampling with specified number of clusters
 2. Expectations Maximization with specified number of clusters
 3. Dirichlet Process mixture model that determines the number of clusters given the data.
 
 
-##### HMM Presentation.ipynb
+#### HMM Presentation
   ![](marginal_hmm_states.png)
+link to notebook, [](https://github.com/econokeith/econohmm/blob/master/HMM%20Presentation.ipynb)
+
 Shows how to set up the basic HMM, switching, and emission objects in order to estimate the states and
 parameters for a given time-series. Demonstrates how to use either the Baum-Welch or Forwards Filter
 Backwards Sample algorithm for estimation. Applies the model to artificial data, to 10 Year US Treasury
