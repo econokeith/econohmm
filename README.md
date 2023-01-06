@@ -22,7 +22,7 @@ econohmm is still in the early stages of development. However, I've included two
 Notebooks demonstrating some of its potential uses.
 
 ##### Estimate Mixture Models and Dirichlet Process Mixtures Models with econohmm.ipynb
-
+ ![](gibbs_sampler.png)
 Shows how to use the container and emission classes of econohmm to estimate a 1D Gaussian mixture model. I use three methodologies:
 1. Gibbs Sampling with specified number of clusters
 2. Expectations Maximization with specified number of clusters
@@ -30,7 +30,7 @@ Shows how to use the container and emission classes of econohmm to estimate a 1D
 
 
 ##### HMM Presentation.ipynb
-
+  ![](marginal_hmm_states.png)
 Shows how to set up the basic HMM, switching, and emission objects in order to estimate the states and
 parameters for a given time-series. Demonstrates how to use either the Baum-Welch or Forwards Filter
 Backwards Sample algorithm for estimation. Applies the model to artificial data, to 10 Year US Treasury
