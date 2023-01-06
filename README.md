@@ -35,7 +35,7 @@ Shows how to use the container and emission classes of econohmm to estimate a 1D
 #### HMM Presentation
   ![](marginal_hmm_states.png)
   
-link to notebook, [](https://github.com/econokeith/econohmm/blob/master/HMM%20Presentation.ipynb)
+link to notebook, [here](https://github.com/econokeith/econohmm/blob/master/HMM%20Presentation.ipynb)
 
 Shows how to set up the basic HMM, switching, and emission objects in order to estimate the states and
 parameters for a given time-series. Demonstrates how to use either the Baum-Welch or Forwards Filter
